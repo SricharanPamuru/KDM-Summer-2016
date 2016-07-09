@@ -4,7 +4,7 @@
 		module="spark-w2vec_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160628000505"
+		publication="20160708185918"
 	>
 		<description>
 		Spark-W2Vec

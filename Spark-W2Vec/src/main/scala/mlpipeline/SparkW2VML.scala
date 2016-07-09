@@ -12,6 +12,7 @@ object SparkW2VML {
   def main(args: Array[String]) {
 
     // Configuration
+    System.setProperty("hadoop.home.dir", "C:\\winutils")
     val sparkConf = new SparkConf().setAppName("SparkWordCount").setMaster("local[*]")
 
     val sc = new SparkContext(sparkConf)
@@ -28,7 +29,7 @@ object SparkW2VML {
     Logger.getLogger("akka").setLevel(Level.OFF);
 
     // Read the file into RDD[String]
-    val input = sc.textFile("data/sample").map(line => {
+    val input = sc.textFile("data/bbcsport/*").map(line => {
       //Getting Lemmatized Form of the word using CoreNLP
       val lemma = CoreNLP.returnLemma(line)
       (0, lemma)

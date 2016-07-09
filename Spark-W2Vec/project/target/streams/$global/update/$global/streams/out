@@ -1,4 +1,4 @@
-[info] Updating {file:/D:/KDM/Tutorial%20Lab/tutorial%206/Spark-W2Vec/project/}spark-w2vec-build...
+[info] Updating {file:/C:/Users/Bhargav/Documents/GitHub/KDM-Summer-2016/Spark-W2Vec/project/}spark-w2vec-build...
 [debug] :: resolving dependencies :: default#spark-w2vec-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -16,7 +16,7 @@
 [debug] == resolving dependencies for default#spark-w2vec-build;0.1-SNAPSHOT [provided]
 [debug] == resolving dependencies default#spark-w2vec-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b7fa7b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ea7483c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
@@ -1766,19 +1766,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1719ms :: artifacts dl 74ms
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT compile produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-compile.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT runtime produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-runtime.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT test produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-test.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT provided produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-provided.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT optional produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-optional.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT compile-internal produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-compile-internal.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT runtime-internal produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-runtime-internal.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT test-internal produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-test-internal.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT plugin produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-plugin.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT sources produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-sources.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT docs produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-docs.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT pom produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-pom.xml
-[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT scala-tool produced in D:\KDM\Tutorial Lab\tutorial 6\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-scala-tool.xml
-[debug] 	resolve done (1719ms resolve - 74ms download)
+[debug] :: resolution report :: resolve 1271ms :: artifacts dl 64ms
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT compile produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-compile.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT runtime produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-runtime.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT test produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-test.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT provided produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-provided.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT optional produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-optional.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT compile-internal produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-compile-internal.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT runtime-internal produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-runtime-internal.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT test-internal produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-test-internal.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT plugin produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-plugin.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT sources produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-sources.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT docs produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-docs.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT pom produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-pom.xml
+[debug] 	report for default#spark-w2vec-build;0.1-SNAPSHOT scala-tool produced in C:\Users\Bhargav\Documents\GitHub\KDM-Summer-2016\Spark-W2Vec\project\target\resolution-cache\reports\default-spark-w2vec-build-scala-tool.xml
+[debug] 	resolve done (1271ms resolve - 64ms download)
 [info] Done updating.

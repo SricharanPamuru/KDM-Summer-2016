@@ -4,7 +4,7 @@
 		module="spark-w2vec-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160628000428"
+		publication="20160708185909"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

@@ -16,7 +16,7 @@ public class WordNetMain {
         System.out.println("\nFinding parts of speech for " + word + ".");
         String[] partsofspeech = wordnet.getPos(word);
         for (int i = 0; i < partsofspeech.length; i++) {
-            System.out.println(partsofspeech[i]);
+            System.out.println(partsofspeech[i]);//
         }
 
         word = "delivery";

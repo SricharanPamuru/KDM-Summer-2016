@@ -4,9 +4,9 @@
     <list default="true" id="e6990bbd-216a-4266-b9dc-123a2ffa9ba9" name="Default" comment="" />
     <ignored path="Spark-W2Vec.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/project/project/target/" />
-    <ignored path="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/project/target/" />
-    <ignored path="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="ExternalProjectsData">
-    <projectState path="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec">
+    <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
@@ -52,7 +52,7 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="true">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.02455357">
+            <state vertical-scroll-proportion="0.025761124">
               <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
               <folding />
             </state>
@@ -64,50 +64,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="1141" column="0" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#80896#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#16480#16481#0" expanded="false" />
-                <element signature="e#16508#16509#0" expanded="false" />
-                <element signature="e#16568#16569#0" expanded="false" />
-                <element signature="e#16597#16598#0" expanded="false" />
-                <element signature="e#16644#16645#0" expanded="false" />
-                <element signature="e#16679#16680#0" expanded="false" />
-                <element signature="e#16824#16825#0" expanded="false" />
-                <element signature="e#16884#16885#0" expanded="false" />
-                <element signature="e#17029#17030#0" expanded="false" />
-                <element signature="e#17089#17090#0" expanded="false" />
-                <element signature="e#17336#17337#0" expanded="false" />
-                <element signature="e#17409#17410#0" expanded="false" />
-                <element signature="e#25063#25064#0" expanded="false" />
-                <element signature="e#25102#25103#0" expanded="false" />
-                <element signature="e#25293#25294#0" expanded="false" />
-                <element signature="e#25339#25340#0" expanded="false" />
-                <element signature="e#31552#31553#0" expanded="false" />
-                <element signature="e#31595#31596#0" expanded="false" />
-                <element signature="e#31948#31949#0" expanded="false" />
-                <element signature="e#32004#32005#0" expanded="false" />
-                <element signature="e#57238#57239#0" expanded="false" />
-                <element signature="e#57283#57284#0" expanded="false" />
-                <element signature="e#57976#57977#0" expanded="false" />
-                <element signature="e#58037#58038#0" expanded="false" />
-                <element signature="e#58750#58751#0" expanded="false" />
-                <element signature="e#58776#58777#0" expanded="false" />
-                <element signature="e#59415#59416#0" expanded="false" />
-                <element signature="e#59451#59452#0" expanded="false" />
-                <element signature="e#60105#60106#0" expanded="false" />
-                <element signature="e#60135#60136#0" expanded="false" />
-                <element signature="e#61630#61631#0" expanded="false" />
-                <element signature="e#61665#61666#0" expanded="false" />
-                <element signature="e#63465#63466#0" expanded="false" />
-                <element signature="e#63510#63511#0" expanded="false" />
-                <element signature="e#65777#65778#0" expanded="false" />
-                <element signature="e#65815#65816#0" expanded="false" />
-                <element signature="e#67446#67447#0" expanded="false" />
-                <element signature="e#67518#67519#0" expanded="false" />
-                <element signature="e#67915#67916#0" expanded="false" />
-                <element signature="e#67947#67948#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,10 +84,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#838#888#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,10 +94,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#838#854#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,10 +114,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#832#861#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,15 +134,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#560#586#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -204,16 +152,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/java/mlpipeline/Main.java" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/mlpipeline/CoreNLP.java" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/java/mlpipeline/CoreNLP.java" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/openie/SparkOpenIE.scala" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/SparkW2V.scala" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/mlpipeline/SparkW2VML.scala" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/ner/SparkNER.scala" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/build.sbt" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/data/Results.txt" />
-        <option value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/src/main/scala/mlpipeline/SparkLDAMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/mlpipeline/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/mlpipeline/CoreNLP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mlpipeline/CoreNLP.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/openie/SparkOpenIE.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SparkW2V.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/mlpipeline/SparkW2VML.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/ner/SparkNER.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/data/Results.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/mlpipeline/SparkLDAMain.scala" />
       </list>
     </option>
   </component>
@@ -228,11 +176,12 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="width" value="1930" />
-    <option name="height" value="1090" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -257,16 +206,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spark-W2Vec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/summer 2016/KDM/Tutorial 11/CS5560-T10-SourceCode/Tutorial 10 Source Code/Streaming_Machine_Learning" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -297,7 +253,7 @@
       <option name="MAIN_CLASS_NAME" value="mlpipeline.SparkW2VML" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="data/bbcsport/*" />
-      <option name="WORKING_DIRECTORY" value="file://$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -317,7 +273,7 @@
       <option name="MAIN_CLASS_NAME" value="mlpipeline.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -337,7 +293,7 @@
       <option name="MAIN_CLASS_NAME" value="wordnet.WordNetMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -357,7 +313,7 @@
       <option name="MAIN_CLASS_NAME" value="concept5.conceptNet5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -377,7 +333,7 @@
       <option name="MAIN_CLASS_NAME" value="mlpipeline.SparkLDAMain" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="data\bbcsport\*" />
-      <option name="WORKING_DIRECTORY" value="file://$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -465,7 +421,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -590,7 +546,7 @@
     <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
       <module name="" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <setting name="consoleArgs" value="-usejavacp" />
       <method />
     </configuration>
@@ -714,45 +670,21 @@
   </component>
   <component name="SbtLocalSettings">
     <option name="lastUpdateTimestamp" value="1468450097914" />
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="Spark-W2Vec" />
-              <option name="path" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="spark-w2vec" />
-                <option name="path" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="spark-w2vec-build" />
-                <option name="path" value="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/Code/Spark-W2Vec/project" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/tutorial 2/Code/InteligentServices" value="1465430390000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/tutorial 5/Spark-TF-IDF" value="1466027516000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/tutorial 7/SparkOpenIE" value="1467091754000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/tutorial 8/SparkLDA" value="1467289254000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/Increment 2/tutorial 9/Spark_KMeans_FV" value="1467520630000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 2/Code/InteligentServices" value="1465430390000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 3/SentimentAnalysisCoreNLP" value="1437683396000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 3/Tutorial-3-CoreNLP" value="1465904070000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 4/CS5560 Tutorial 4 Source Code/Spark WordCount" value="1466027610000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 4/CS5560 Tutorial 4 Source Code/Spark-TF-IDF" value="1466027516000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 5/Spark-TF-IDF" value="1466027516000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 5/SparkNLP" value="1466447358000" />
-        <entry key="$USER_HOME$/Documents/GitHub/KDM_Summer-2016/KDM-Summer-2016/tutorial 6/Spark-W2Vec" value="1466638890000" />
+        <entry key="$PROJECT_DIR$/../../tutorial 2/Code/InteligentServices" value="1465430390000" />
+        <entry key="$PROJECT_DIR$/../../tutorial 5/Spark-TF-IDF" value="1466027516000" />
+        <entry key="$PROJECT_DIR$/../../tutorial 7/SparkOpenIE" value="1467091754000" />
+        <entry key="$PROJECT_DIR$/../../tutorial 8/SparkLDA" value="1467289254000" />
+        <entry key="$PROJECT_DIR$/../../tutorial 9/Spark_KMeans_FV" value="1467520630000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 2/Code/InteligentServices" value="1465430390000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 3/SentimentAnalysisCoreNLP" value="1437683396000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 3/Tutorial-3-CoreNLP" value="1465904070000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 4/CS5560 Tutorial 4 Source Code/Spark WordCount" value="1466027610000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 4/CS5560 Tutorial 4 Source Code/Spark-TF-IDF" value="1466027516000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 5/Spark-TF-IDF" value="1466027516000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 5/SparkNLP" value="1466447358000" />
+        <entry key="$PROJECT_DIR$/../../../tutorial 6/Spark-W2Vec" value="1466638890000" />
         <entry key="$USER_HOME$/Downloads/CS5542 - Tutorial 9 Code/CS5542 - Tutorial 9 Code/Image_Classification" value="1458157232000" />
         <entry key="$USER_HOME$/Downloads/CS5542-Tutorial 8 Code/SimpleRecommendationSystem" value="1457650158000" />
         <entry key="D:/Bigdata/SparktoAndroid/Spark WordCount" value="1441861540000" />
@@ -776,19 +708,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1930" height="1090" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24811625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24758843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -800,6 +731,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295699" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43404734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -826,14 +758,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Iterator.scala">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#560#586#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,50 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1141" column="0" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#80896#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#16480#16481#0" expanded="false" />
-            <element signature="e#16508#16509#0" expanded="false" />
-            <element signature="e#16568#16569#0" expanded="false" />
-            <element signature="e#16597#16598#0" expanded="false" />
-            <element signature="e#16644#16645#0" expanded="false" />
-            <element signature="e#16679#16680#0" expanded="false" />
-            <element signature="e#16824#16825#0" expanded="false" />
-            <element signature="e#16884#16885#0" expanded="false" />
-            <element signature="e#17029#17030#0" expanded="false" />
-            <element signature="e#17089#17090#0" expanded="false" />
-            <element signature="e#17336#17337#0" expanded="false" />
-            <element signature="e#17409#17410#0" expanded="false" />
-            <element signature="e#25063#25064#0" expanded="false" />
-            <element signature="e#25102#25103#0" expanded="false" />
-            <element signature="e#25293#25294#0" expanded="false" />
-            <element signature="e#25339#25340#0" expanded="false" />
-            <element signature="e#31552#31553#0" expanded="false" />
-            <element signature="e#31595#31596#0" expanded="false" />
-            <element signature="e#31948#31949#0" expanded="false" />
-            <element signature="e#32004#32005#0" expanded="false" />
-            <element signature="e#57238#57239#0" expanded="false" />
-            <element signature="e#57283#57284#0" expanded="false" />
-            <element signature="e#57976#57977#0" expanded="false" />
-            <element signature="e#58037#58038#0" expanded="false" />
-            <element signature="e#58750#58751#0" expanded="false" />
-            <element signature="e#58776#58777#0" expanded="false" />
-            <element signature="e#59415#59416#0" expanded="false" />
-            <element signature="e#59451#59452#0" expanded="false" />
-            <element signature="e#60105#60106#0" expanded="false" />
-            <element signature="e#60135#60136#0" expanded="false" />
-            <element signature="e#61630#61631#0" expanded="false" />
-            <element signature="e#61665#61666#0" expanded="false" />
-            <element signature="e#63465#63466#0" expanded="false" />
-            <element signature="e#63510#63511#0" expanded="false" />
-            <element signature="e#65777#65778#0" expanded="false" />
-            <element signature="e#65815#65816#0" expanded="false" />
-            <element signature="e#67446#67447#0" expanded="false" />
-            <element signature="e#67518#67519#0" expanded="false" />
-            <element signature="e#67915#67916#0" expanded="false" />
-            <element signature="e#67947#67948#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -900,10 +786,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#838#888#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,10 +794,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#838#854#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,10 +810,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#832#861#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,16 +826,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#560#586#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Iterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1141" column="0" selection-start-line="1141" selection-start-column="0" selection-end-line="1141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/executor/Executor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="273" column="0" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/scheduler/Task.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/scheduler/ResultTask.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1888" column="0" selection-start-line="1888" selection-start-column="0" selection-end-line="1888" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/rdd/ZippedWithIndexRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.0-preview-sources.jar!/org/apache/spark/util/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1635" column="0" selection-start-line="1635" selection-start-column="0" selection-end-line="1635" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.8-sources.jar!/scala/collection/Iterator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="408" column="0" selection-start-line="408" selection-start-column="0" selection-end-line="408" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_73/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02455357">
+        <state vertical-scroll-proportion="0.025761124">
           <caret line="744" column="0" selection-start-line="744" selection-start-column="0" selection-end-line="744" selection-end-column="0" />
           <folding />
         </state>

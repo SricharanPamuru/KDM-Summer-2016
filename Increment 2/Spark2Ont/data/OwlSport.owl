@@ -1,0 +1,4712 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/sports"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/sports">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="Country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Opponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Player"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sachin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sports"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="John Cena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="on"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="close"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="winner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="No"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="domestically"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="or"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="of"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="IGN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="way"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="twenty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="after"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="grit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="different"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="include"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="more"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Shri"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="appearance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Almanack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="decision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="six"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Richards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="later"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Backlund"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="headline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="developmental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="no"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="competition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topic2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="where"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Royal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="chart"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Parliament"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="generic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rapper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="cena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hundred"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wankhede"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wrestler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="career"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Federation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hulk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="describe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="International"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="only"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="that"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="release"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="pro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="bear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Recreation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="money"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="greatest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="from"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="host"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bharat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="both"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="while"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="film"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Padma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="since"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="lk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="sachin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Karachi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="total"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Celebrity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Saturday"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gillette"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Australia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasLost"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="XXVIII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="result"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Force"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cricketer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Manhunt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ramesh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sir"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="most"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="third"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="current"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="shoe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WWE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WWF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Billboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="award"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fourth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="just"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="fighting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Khel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="play"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Honorary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sixteen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="first"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="occasion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="trophy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="album"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Race"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="November"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="South"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="civilian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="form"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="XXVII"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="century"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wwe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="with"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="mark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sachin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="credit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="over"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="lose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="before"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="retire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="captain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="anniversary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="debut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="arrogant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="feature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="United"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Air"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isOpponentOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Parks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="television"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="background"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="honorary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Don"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ever"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="american"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isOfCountry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sammartino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="play"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Hogan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="far"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="record"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Psych"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ODI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="in"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Slammy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Marine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="April"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Trainwreck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="reign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="t"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="it"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="former"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="three"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UPW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="four"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="he"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="achievement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="widely"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="r"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="recipient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Topic2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sabha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Topic3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="double"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="john"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="n"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="period"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="against"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bruno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wrestling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="contract"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="eleven"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="respectively"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Live"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Vibhushan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ultimate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="odi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="gun"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="show"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="world"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wisden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="MADtv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="into"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="face"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="furthermore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="fast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="I"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="championship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sportsperson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="and"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Stadium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="xi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="car"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="many"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="go"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Mumbai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WrestleMania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="house"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Viv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="youngest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="star"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="franchise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Tendulkar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Reunion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="however"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="contestant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="without"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Office"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bank"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="complete"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="ladder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="cup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="round"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rajya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="US"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="second"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Minister"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="nominate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Deal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Punk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="UK"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasWon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="outstanding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="flagship"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="isPlayerOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="up"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="represent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="aviation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="win"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="tag"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rounds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sister"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="five"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="few"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bob"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="all"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="States"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="defeat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="match"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="outside"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="December"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="day"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="eliminate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Sobers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="take"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="good"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="polarizing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Legendary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Team"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="to"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rumble"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="batsman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="which"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="du"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="announce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="detractor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="behind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="champion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="supporter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Champion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="wrestle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="hour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="superstar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="label"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="morph"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Listeni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="international"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="start"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="one"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="the"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="make"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="overall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="roster"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="part"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="indian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="so"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Prime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="see"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="th"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Ratna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="cricket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cena"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="edition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="icc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ball"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Rajiv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="internationally"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="be"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sachin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="combined"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="order"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="character"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="run"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Member"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="edgy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="through"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="main"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Heavyweight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="honour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="WrestleManias"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="previously"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="cricketer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="score"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="sign"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="West"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Wrestling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Young"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="also"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="holder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Arjuna"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="regard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rename"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Series"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Gandhi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="number"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="half"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Indies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="following"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="subsequently"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="as"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cricketers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="at"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Championship"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="rap"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="you"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="highest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="retirement"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Cup"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="October"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="upper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="goody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="place"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Player"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="final"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="receive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Pakistan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="two"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Bradman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="tournament"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Garfield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="wrestler"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="Superman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="transition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="Series"/>
+        <Class IRI="Opponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ball"/>
+        <Class IRI="play"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="cup"/>
+        <Class IRI="play"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="defeat"/>
+        <Class IRI="play"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="fighting"/>
+        <Class IRI="Opponent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="lose"/>
+        <Class IRI="Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="play"/>
+        <Class IRI="Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="result"/>
+        <Class IRI="Country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="sport"/>
+        <Class IRI="play"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="win"/>
+        <Class IRI="Country"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="Country"/>
+        <Class IRI="Opponent"/>
+        <Class IRI="Sports"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Africa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Air"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Almanack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Almanack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="April"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Arjuna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Backlund"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Bank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Bharat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Billboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Bob"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Bradman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Bruno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Celebrity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Championship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Cricketers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Cricketers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Cup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Cup"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Deal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Deal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="December"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Don"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Federation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Force"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Gandhi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Garfield"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Gillette"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Heavyweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Heavyweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Heavyweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Heavyweight"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Hogan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Honorary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="I"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="IGN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Country"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Indies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Karachi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Khel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Legendary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Listeni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Live"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="MADtv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Manhunt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Marine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Member"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Minister"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Mumbai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Mumbai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="No"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="November"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="November"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="November"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="ODI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="ODI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="October"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Office"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Padma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Padma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Pakistan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Parks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Parliament"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Prime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Psych"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Punk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Race"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Rajiv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Rajya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Ramesh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Ratna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Ratna"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Recreation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Reunion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Richards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Rounds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Royal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Rumble"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Sabha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Sachin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Sammartino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Saturday"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Shri"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Sir"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Slammy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Sobers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="South"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Stadium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="States"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Superman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Tendulkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Topic"/>
+        <NamedIndividual IRI="Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Topic"/>
+        <NamedIndividual IRI="Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Topic"/>
+        <NamedIndividual IRI="Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Trainwreck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Country"/>
+        <NamedIndividual IRI="UK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="UPW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="UPW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="US"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Country"/>
+        <NamedIndividual IRI="USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Ultimate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="United"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Vibhushan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Viv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WWF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Wankhede"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="West"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Wisden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="Wisden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WrestleMania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="WrestleManias"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Wrestling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Wrestling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="XXVII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="XXVIII"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="Young"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="achievement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="after"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="after"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="against"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="against"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="age"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="album"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="all"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="also"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="american"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="and"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="anniversary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="announce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="announce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="announce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="appearance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="appearance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="arrogant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="as"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="at"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="aviation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="award"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="background"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="batsman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="batsman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="batsman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="batsman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="be"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="bear"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="before"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="behind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="behind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="behind"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="both"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="by"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="captain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="captain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="car"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="career"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="career"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="career"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="career"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cena"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="century"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="century"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="champion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="championship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="character"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="character"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="character"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="chart"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="civilian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="civilian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="close"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="combined"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="competition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="complete"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="contestant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="contract"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="course"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="credit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="cricketer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="current"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="date"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="day"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="debut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="debut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="debut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="decision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="describe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="describe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="detractor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="developmental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="different"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="domestically"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="double"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="du"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="edgy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="edition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="eleven"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="eliminate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="event"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="ever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="ever"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="face"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="far"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="fast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="feature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="few"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="film"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="final"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="final"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="final"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="first"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="flagship"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="following"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="for"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="form"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="former"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="fourth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="fourth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="fox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="franchise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="from"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="furthermore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="generic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="go"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="good"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="goody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="greatest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="greatest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="greatest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="grit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="group"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="gun"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="half"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="have"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="he"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="headline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="highest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="highest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="highest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="highest"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="hold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="holder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="honorary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="honour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="host"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="hour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="house"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="however"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="hulk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="hundred"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="icc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="in"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="include"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="include"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="indian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="international"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="international"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="international"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="internationally"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="into"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="it"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="john"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="just"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="label"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="ladder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="later"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="later"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="later"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="lk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="main"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="make"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="many"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="many"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="mark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="match"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="money"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="more"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="morph"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="most"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="n"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="n"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="no"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="nominate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="number"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="number"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="occasion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="odi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="of"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="on"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="one"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="only"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="or"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="order"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="outside"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="outstanding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="over"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="overall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="part"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="period"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="person"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="place"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="play"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="play"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="player"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="polarizing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="previously"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="pro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="r"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="rank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="rank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="rap"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="rapper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="receive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="recipient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="record"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="regard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="reign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="reign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="reign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="release"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="rename"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="represent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="respectively"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="retire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="retire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="retirement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="retirement"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="roster"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="round"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="run"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="run"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="run"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sachin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sachin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sachin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="score"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="score"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="score"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="second"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="see"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="shoe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="show"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="sign"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="since"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="sister"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="six"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sixteen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="so"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sport"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sportsperson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="sportsperson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="star"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="start"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="subsequently"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="superstar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="superstar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="supporter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="t"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="tag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="take"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="team"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="television"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="test"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="th"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="than"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="that"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="the"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="third"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="through"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="to"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="total"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="tournament"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="tournament"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="transition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="trophy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="twenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="twenty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="two"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="up"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="upper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="way"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="where"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="which"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="while"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="widely"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="win"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="winner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="winner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="winner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="with"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="without"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="world"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="wrestle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="wrestler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="wrestler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="wrestler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="wrestler"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="wrestling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="wwe"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="xi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="year"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="John Cena"/>
+        <NamedIndividual IRI="you"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="Sachin"/>
+        <NamedIndividual IRI="youngest"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasLost"/>
+        <ObjectProperty IRI="hasPlayer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="hasWon"/>
+        <ObjectProperty IRI="hasPlayer"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="isOfCountry"/>
+        <ObjectProperty IRI="isPlayerOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="isOpponentOf"/>
+        <ObjectProperty IRI="isPlayerOf"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="isOfCountry"/>
+        <ObjectProperty IRI="hasLost"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="isPlayerOf"/>
+        <ObjectProperty IRI="hasPlayer"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="isOpponentOf"/>
+        <ObjectProperty IRI="hasWon"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="hasLost"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="hasPlayer"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasLost"/>
+        <Class IRI="Sports"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasPlayer"/>
+        <Class IRI="Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cena"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cena"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cena"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cricketer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cricketer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="cricketer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="good"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="john"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="john"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="john"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="sachin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="sachin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="sachin"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="wrestler"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="wrestler"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="wrestler"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="hasWon"/>
+        <Class IRI="Sports"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isOfCountry"/>
+        <Class IRI="Opponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isOpponentOf"/>
+        <Class IRI="Country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="isPlayerOf"/>
+        <Class IRI="Player"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasLost"/>
+        <Class IRI="Opponent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasPlayer"/>
+        <Class IRI="Player"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasTopic"/>
+        <Class IRI="Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="hasWon"/>
+        <Class IRI="Country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isOfCountry"/>
+        <Class IRI="Sports"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isOpponentOf"/>
+        <Class IRI="Sports"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="isPlayerOf"/>
+        <Class IRI="Player"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2.20160507-1747) https://github.com/owlcs/owlapi/ -->
+
+

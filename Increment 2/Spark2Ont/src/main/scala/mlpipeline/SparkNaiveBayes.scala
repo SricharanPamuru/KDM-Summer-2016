@@ -36,7 +36,7 @@ object SparkNaiveBayes {
   def main(args: Array[String]) {
     System.setProperty("hadoop.home.dir", "E:\\winutils")
 
-    val trainFolder = "data/Categories/*"
+    val trainFolder = "C:\\Users\\snehal\\Downloads\\CS5560-T13 -SourceCode\\W13 - Source Code\\Spark2Ont\\data\\Categories\\*"
     val conf = new SparkConf().setAppName(s"NBExample").setMaster("local[*]").set("spark.driver.memory", "4g").set("spark.executor.memory", "4g")
     val sc = new SparkContext(conf)
 
@@ -66,7 +66,7 @@ object SparkNaiveBayes {
 
     val model = NaiveBayes.train(featureVector, lambda = 1.0, modelType = "multinomial")
 
-    val testDir = "data/test/*"
+    val testDir = "C:\\Users\\snehal\\Downloads\\CS5560-T13 -SourceCode\\W13 - Source Code\\Spark2Ont\\data\\test\\*"
 
     val topicData = SparkLDAMain.main(sc, testDir, 3, "em")
 

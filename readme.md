@@ -8,7 +8,7 @@ Team 6
 
 1. Sricharan Pamuru
 2. Prudhvi Raj Mudunuri
-3. Snehal Vantashala
+3. Snehal 
 4. Bhargav Krishna Velagapudi
 
 The project submitted on 6/24/2016
